@@ -43,6 +43,7 @@ export class MainPage extends React.PureComponent {
   render() {
     const { classes, toggleDrawer, mainPage, handleNavClick } = this.props;
     const { isDrawerOpen, selectedNav } = mainPage;
+    const test = 'sdfdsfsd'
     return (
       <div className={classes.root}>
         <Helmet>
